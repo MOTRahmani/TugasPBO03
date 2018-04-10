@@ -7,7 +7,7 @@ public class Roko {
     
     void cetakInfo(){
         System.out.println("Merk \t:"+merk+"\n"+
-                "Takaran \t:"+nikotin+"\n"+
+                "Takaran\t:"+nikotin+"\n"+
                 "Harga \t:"+harga);
     }
 }
