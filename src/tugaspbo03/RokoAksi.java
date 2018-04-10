@@ -8,5 +8,12 @@ public class RokoAksi {
         r1.setHarga(16000);
         
         r1.cetakInfo();
+        
+        System.out.print("Merknya \t: ");
+        System.out.println(r1.getMerk());
+        System.out.print("Nikotinnya\t: ");
+        System.out.println(r1.getNikotin());
+        System.out.print("Harganya \t: ");
+        System.out.println(r1.getHarga());
     }
 }
