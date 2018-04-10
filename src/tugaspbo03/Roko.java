@@ -1,9 +1,9 @@
 package tugaspbo03;
 
 public class Roko {
-    String merk;
-    double nikotin;
-    double harga;
+    private String merk;
+    private double nikotin;
+    private double harga;
     
     void cetakInfo(){
         System.out.println("Merk \t:"+merk+"\n"+
