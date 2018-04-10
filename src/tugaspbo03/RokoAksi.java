@@ -15,5 +15,14 @@ public class RokoAksi {
         System.out.println(r1.getNikotin());
         System.out.print("Harganya \t: ");
         System.out.println(r1.getHarga());
+        
+        ProdukRoko r2 = new ProdukRoko();
+        r2.setMerk("Gudang Jati");
+        r2.setNikotin(1.6);
+        r2.setHarga(12000);
+        r2.setJenisroko("Roko urang tuha");
+        r2.cetakInfo();
+        System.out.println("Produk :"+r2.getJenisroko());
+        r2.throttle();
     }
 }
