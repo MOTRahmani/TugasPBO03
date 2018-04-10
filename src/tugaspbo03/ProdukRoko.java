@@ -6,4 +6,13 @@ public class ProdukRoko extends Roko{
     void throttle(){
         System.out.println("Berasap.......");
     }
+
+    public String getJenisroko() {
+        return jenisroko;
+    }
+
+    public void setJenisroko(String jenisroko) {
+        this.jenisroko = jenisroko;
+    }
+    
 }
